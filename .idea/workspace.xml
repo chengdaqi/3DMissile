@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69785d65-d569-4d57-9a6e-b87a3ac864be" name="Default Changelist" comment="项目初始化以及模型的添加">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Images/bing_maps_credit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Images/cesium_credit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Images/google_earth_credit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Images/ion-credit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/LensFlare/DirtMask.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/LensFlare/StarBurst.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/0/0/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/0/1/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/1/0/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/1/0/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/1/1/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/1/1/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/1/2/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/1/2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/1/3/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/1/3/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/0/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/0/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/0/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/0/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/1/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/1/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/1/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/1/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/2/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/2/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/2/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/3/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/3/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/3/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/3/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/2/4/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/NaturalEarthII/tilemapresource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/SkyBox/tycho2t3_80_mx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/SkyBox/tycho2t3_80_my.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/SkyBox/tycho2t3_80_mz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/SkyBox/tycho2t3_80_px.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/SkyBox/tycho2t3_80_py.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/SkyBox/tycho2t3_80_pz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/airfield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/airport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/alcohol-shop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/america-football.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/art-gallery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/bakery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/baseball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/basketball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/beer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/bicycle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/building.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/bus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/cafe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/campsite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/cemetery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/cesium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/chemist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/cinema.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/circle-stroked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/clothing-store.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/college.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/commercial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/cricket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/dam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/danger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/disability.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/dog-park.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/embassy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/emergency-telephone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/entrance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/farm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/fast-food.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/ferry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/fire-station.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/fuel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/garden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/gift.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/golf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/grocery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/hairdresser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/harbor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/heliport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/hospital.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/ice-cream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/industrial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/land-use.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/laundry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/library.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/lighthouse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/lodging.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/logging.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/london-underground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/marker-stroked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/minefield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/mobilephone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/monument.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/museum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/oil-well.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/park.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/park2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/parking-garage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/parking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/pharmacy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/pitch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/place-of-worship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/playground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/police.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/polling-place.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/post.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/prison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/rail-above.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/rail-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/rail-metro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/rail-underground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/rail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/religious-christian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/religious-jewish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/religious-muslim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/restaurant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/roadblock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/school.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/scooter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/shop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/skiing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/slaughterhouse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/soccer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/square-stroked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/star-stroked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/suitcase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/swimming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/telephone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/tennis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/theatre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/toilets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/town-hall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/town.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/triangle-stroked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/triangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/village.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/warehouse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/waste-basket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/wetland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/maki/zoo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/moonSmall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/waterNormals.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/Textures/waterNormalsSmall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Assets/approximateTerrainHeights.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Cesium.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/ApproximateTerrainHeights.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/ArcGISTiledElevationTerrainProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/ArcType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/AssociativeArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/AttributeCompression.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/AxisAlignedBoundingBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/BingMapsApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/BingMapsGeocoderService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/BoundingRectangle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/BoundingSphere.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/BoxGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/BoxOutlineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Cartesian2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Cartesian3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Cartesian4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Cartographic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CartographicGeocoderService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CatmullRomSpline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CesiumTerrainProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Check.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CircleGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CircleOutlineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Clock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/ClockRange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/ClockStep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Color.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/ColorGeometryInstanceAttribute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/ComponentDatatype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CompressedTextureBuffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CoplanarPolygonGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CoplanarPolygonGeometryLibrary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CoplanarPolygonOutlineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CornerType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CorridorGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CorridorGeometryLibrary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CorridorOutlineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Credit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CubicRealPolynomial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CullingVolume.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CylinderGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CylinderGeometryLibrary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/CylinderOutlineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/DefaultProxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/DeveloperError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/DistanceDisplayCondition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/DistanceDisplayConditionGeometryInstanceAttribute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/DoublyLinkedList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/EarthOrientationParameters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/EarthOrientationParametersSample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/EasingFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/EllipseGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/EllipseGeometryLibrary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/EllipseOutlineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Ellipsoid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/EllipsoidGeodesic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/EllipsoidGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/EllipsoidOutlineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/EllipsoidRhumbLine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/EllipsoidTangentPlane.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/EllipsoidTerrainProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/EllipsoidalOccluder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/EncodedCartesian3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/EventHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/ExtrapolationType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/FeatureDetection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/FrustumGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/FrustumOutlineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GeocodeType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GeocoderService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GeographicProjection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GeographicTilingScheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Geometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GeometryAttribute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GeometryAttributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GeometryInstance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GeometryInstanceAttribute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GeometryOffsetAttribute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GeometryPipeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GeometryType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GoogleEarthEnterpriseMetadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GoogleEarthEnterpriseTerrainData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GoogleEarthEnterpriseTerrainProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GoogleEarthEnterpriseTileInformation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GregorianDate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/GroundPolylineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/HeadingPitchRange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/HeadingPitchRoll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Heap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/HeightmapEncoding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/HeightmapTerrainData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/HeightmapTessellator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/HermitePolynomialApproximation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/HermiteSpline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Iau2000Orientation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Iau2006XysData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Iau2006XysSample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/IauOrientationAxes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/IauOrientationParameters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/IndexDatatype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/InterpolationAlgorithm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Intersect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/IntersectionTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Intersections2D.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Interval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Ion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/IonGeocoderService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/IonResource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Iso8601.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/JulianDate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/KeyboardEventModifier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/LagrangePolynomialApproximation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/LeapSecond.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/LinearApproximation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/LinearSpline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/ManagedArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/MapProjection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/MapboxApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Matrix2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Matrix3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Matrix4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/NearFarScalar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Occluder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/OffsetGeometryInstanceAttribute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/OpenCageGeocoderService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/OrientedBoundingBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/OrthographicFrustum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/OrthographicOffCenterFrustum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Packable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PackableForInterpolation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PeliasGeocoderService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PerspectiveFrustum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PerspectiveOffCenterFrustum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PinBuilder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PixelFormat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Plane.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PlaneGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PlaneOutlineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PolygonGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PolygonGeometryLibrary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PolygonHierarchy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PolygonOutlineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PolygonPipeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PolylineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PolylinePipeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PolylineVolumeGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PolylineVolumeGeometryLibrary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PolylineVolumeOutlineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/PrimitiveType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/QuadraticRealPolynomial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/QuantizedMeshTerrainData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/QuarticRealPolynomial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Quaternion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/QuaternionSpline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Ray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Rectangle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/RectangleCollisionChecker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/RectangleGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/RectangleGeometryLibrary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/RectangleOutlineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/ReferenceFrame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/RequestErrorEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/RequestScheduler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/RequestState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/RequestType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Resource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/RuntimeError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/ScreenSpaceEventHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/ScreenSpaceEventType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/ShowGeometryInstanceAttribute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Simon1994PlanetaryPositions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/SimplePolylineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/SphereGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/SphereOutlineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Spherical.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Spline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TaskProcessor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TerrainData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TerrainEncoding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TerrainMesh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TerrainProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TerrainQuantization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TileAvailability.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TileEdge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TileProviderError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TilingScheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TimeConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TimeInterval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TimeIntervalCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TimeStandard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Tipsify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Transforms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TranslationRotationScale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TridiagonalSystemSolver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/TrustedServers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/VRTheWorldTerrainProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/VertexFormat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/VideoSynchronizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/Visibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/WallGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/WallGeometryLibrary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/WallOutlineGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/WebGLConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/WebMercatorProjection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/WebMercatorTilingScheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/WeightSpline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/WindingOrder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/appendForwardSlash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/arrayFill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/arrayRemoveDuplicates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/arraySlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/barycentricCoordinates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/binarySearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/buildModuleUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/cancelAnimationFrame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/clone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/combine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/createGuid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/createWorldTerrain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/decodeGoogleEarthEnterpriseData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/defaultValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/defineProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/defined.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/deprecationWarning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/destroyObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/formatError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/freezeObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/getAbsoluteUri.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/getBaseUri.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/getExtensionFromUri.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/getFilenameFromUri.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/getImagePixels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/getMagic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/getStringFromTypedArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/getTimestamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/isArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/isBitSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/isBlobUri.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/isCrossOriginUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/isDataUri.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/isLeapYear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/loadAndExecuteScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/loadCRN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/loadImageFromTypedArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/loadKTX.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/mergeSort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/objectToQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/oneTimeWarning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/parseResponseHeaders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/pointInsideTriangle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/queryToObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/requestAnimationFrame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/sampleTerrain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/sampleTerrainMostDetailed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/scaleToGeodeticSurface.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/subdivideArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/webGLConstantToGlslType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/wrapFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Core/writeTextToCanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Appearance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ArcGisMapServerImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/AttributeType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/AutoExposure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Axis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/BatchTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Batched3DModel3DTileContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Billboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/BillboardCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/BingMapsImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/BingMapsStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/BlendEquation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/BlendFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/BlendOption.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/BlendingState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/BoxEmitter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/BrdfLutGenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Camera.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/CameraEventAggregator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/CameraEventType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/CameraFlightPath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTileBatchTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTileColorBlendMode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTileContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTileContentFactory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTileContentState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTileFeature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTileFeatureTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTileOptimizationHint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTileOptimizations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTilePass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTilePassState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTilePointFeature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTileRefine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTileStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTileStyleEngine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTileset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTilesetCache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTilesetHeatmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTilesetMostDetailedTraversal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTilesetStatistics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Cesium3DTilesetTraversal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/CircleEmitter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ClassificationModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ClassificationPrimitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ClassificationType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ClippingPlane.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ClippingPlaneCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ColorBlendMode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Composite3DTileContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ConditionsExpression.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ConeEmitter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/CreditDisplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/CullFace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/DebugAppearance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/DebugCameraPrimitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/DebugModelMatrixPrimitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/DepthFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/DepthPlane.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/DerivedCommand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/DeviceOrientationCameraController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/DiscardEmptyTileImagePolicy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/DiscardMissingTileImagePolicy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/DracoLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/EllipsoidPrimitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/EllipsoidSurfaceAppearance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Empty3DTileContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Expression.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ExpressionNodeType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Fog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/FrameRateMonitor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/FrameState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/FrustumCommands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Geometry3DTileContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/GetFeatureInfoFormat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Globe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/GlobeDepth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/GlobeSurfaceShaderSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/GlobeSurfaceTile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/GlobeSurfaceTileProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/GoogleEarthEnterpriseImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/GoogleEarthEnterpriseMapsProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/GridImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/GroundPolylinePrimitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/GroundPrimitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/HeightReference.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/HorizontalOrigin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Imagery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ImageryLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ImageryLayerCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ImageryLayerFeatureInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ImagerySplitDirection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ImageryState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Instanced3DModel3DTileContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/InvertClassification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/IonImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/IonWorldImageryStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/JobScheduler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/JobType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Label.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/LabelCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/LabelStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/MapMode2D.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/MapboxImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/MapboxStyleImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Material.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/MaterialAppearance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ModelAnimation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ModelAnimationCache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ModelAnimationCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ModelAnimationLoop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ModelAnimationState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ModelInstance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ModelInstanceCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ModelLoadResources.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ModelMaterial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ModelMesh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ModelNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ModelUtility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Moon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/NeverTileDiscardPolicy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/OIT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/OctahedralProjectedCubeMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/OpenStreetMapImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/OrderedGroundPrimitiveCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Particle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ParticleBurst.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ParticleEmitter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ParticleSystem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PerInstanceColorAppearance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PerformanceDisplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PickDepth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PickDepthFramebuffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PickFramebuffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Picking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PointCloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PointCloud3DTileContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PointCloudEyeDomeLighting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PointCloudShading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PointPrimitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PointPrimitiveCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Polyline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PolylineCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PolylineColorAppearance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PolylineMaterialAppearance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PostProcessStage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PostProcessStageCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PostProcessStageComposite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PostProcessStageLibrary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PostProcessStageSampleMode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PostProcessStageTextureCache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Primitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PrimitiveCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PrimitivePipeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/PrimitiveState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/QuadtreeOccluders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/QuadtreePrimitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/QuadtreeTile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/QuadtreeTileLoadState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/QuadtreeTileProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/SDFSettings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Scene.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/SceneFramebuffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/SceneMode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/SceneTransforms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/SceneTransitioner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ScreenSpaceCameraController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ShadowMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ShadowMapShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ShadowMode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ShadowVolumeAppearance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/SingleTileImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/SkyAtmosphere.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/SkyBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/SphereEmitter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/StencilConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/StencilFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/StencilOperation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/StyleExpression.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Sun.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/SunPostProcess.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TerrainFillMesh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TerrainState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TextureAtlas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TileBoundingRegion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TileBoundingSphere.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TileBoundingVolume.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TileCoordinatesImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TileDiscardPolicy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TileImagery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TileMapServiceImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TileOrientedBoundingBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TileReplacementQueue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TileSelectionResult.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TileState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Tileset3DTileContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TimeDynamicImagery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TimeDynamicPointCloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Tonemapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/TweenCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/UrlTemplateImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Vector3DTileBatch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Vector3DTileContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Vector3DTileGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Vector3DTilePoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Vector3DTilePolygons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Vector3DTilePolylines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/Vector3DTilePrimitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/VerticalOrigin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/View.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/ViewportQuad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/WebMapServiceImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/WebMapTileServiceImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/computeFlyToLocationForRectangle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/createBillboardPointCallback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/createOpenStreetMapImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/createTangentSpaceDebugPrimitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/createTileMapServiceImageryProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/createWorldImagery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/getBinaryAccessor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/getClipAndStyleCode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/getClippingFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/processModelMaterialsCommon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Scene/processPbrMaterials.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/copyrightHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1067865156">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="65" />
+          <entry key="txt" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="65" />
+          <entry key="PLAIN_TEXT" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Apps/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/Cesium-1.64/Apps/HelloWorld.html" />
+        <option value="$PROJECT_DIR$/js/Cesium-1.64/Apps/index.html" />
+        <option value="$PROJECT_DIR$/Apps/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/ThirdParty/codemirror-4.6/package.json" />
+      <path value="$PROJECT_DIR$/ThirdParty/dojo-release-1.10.4/dijit/package.json" />
+      <path value="$PROJECT_DIR$/ThirdParty/dojo-release-1.10.4/dojo/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="365" />
+    <option name="y" value="376" />
+    <option name="width" value="1440" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="missile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="missile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="missile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="missile" type="462c0819:PsiDirectoryNode" />
+              <item name="Apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\software\missile\Apps\model" />
+      <recent name="D:\software\missile\js\Cesium-1.64\Apps" />
+      <recent name="D:\software\missile" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69785d65-d569-4d57-9a6e-b87a3ac864be" name="Default Changelist" comment="" />
+      <created>1577786789119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577786789119</updated>
+      <workItem from="1577786790819" duration="3036000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3036000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="292" y="301" width="1152" height="596" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33870968" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33045357" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目初始化以及模型的添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目初始化以及模型的添加" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/Cesium-1.64/Apps/HelloWorld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Cesium-1.64/Apps/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apps/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
